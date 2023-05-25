@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+@layer components {
+  .btn {
+    @apply bg-white text-red-600 inline-block px-4 py-2 text-sm font-semibold leading-5 transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:border-gray-300;
+  }
+}
