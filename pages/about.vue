@@ -9,7 +9,9 @@
         neque
         magnam veniam vel, earum ipsum maiores eum iure assumenda saepe. Sunt voluptatibus reprehenderit voluptatem dicta.
     </p>
-    <div class="api-data">Random word: {{ data[0] }}</div>
+    <div class="random-word" style="text-shadow: 2px 2px 4px rgb(47, 0, 255);">Random word: <span
+            class="api-data text-red-600">{{
+                data[0] }}</span></div>
 </template>
 
 <script setup>
