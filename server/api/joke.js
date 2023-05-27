@@ -13,6 +13,5 @@ export default defineEventHandler(async (event) => {
     
 
     const data = await $fetch(url, options);
-    console.log(data)
     return data
 })
