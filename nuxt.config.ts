@@ -22,4 +22,7 @@ export default defineNuxtConfig({
       plugins: [],
     },
   },
+  runtimeConfig: {
+    jokeApiKey: process.env.JOKE_API_KEY,
+  },
 });
